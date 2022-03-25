@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -40,65 +40,15 @@ export default function Home() {
           <div className={styles.game_container}>
             <div className={styles.center_holder}>
               <div className="row">
-                <div className="col">
-                  <div className={styles.scissors}>
-                    <div className={styles.image_inner}>
-                      <img
-                        className={styles.image_top}
-                        src="/images/icon-scissors.svg"
-                        height="45px"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <PlayItem name="scissors" />
               </div>
               <div className="row">
-                <div className="col">
-                  <div className={styles.sprock}>
-                    <div className={styles.image_inner}>
-                      <img
-                        className={styles.image_top}
-                        src="/images/icon-spock.svg"
-                        height="45px"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className={styles.paper}>
-                    <div className={styles.image_inner}>
-                      <img
-                        className={styles.image_top}
-                        src="/images/icon-paper.svg"
-                        height="45px"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <PlayItem name="spock" />
+                <PlayItem name="paper" />
               </div>
               <div className="row">
-                <div className="col">
-                  <div className={styles.lizard}>
-                    <div className={styles.image_inner}>
-                      <img
-                        className={styles.image_top}
-                        src="/images/icon-lizard.svg"
-                        height="45px"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className={styles.rock}>
-                    <div className={styles.image_inner}>
-                      <img
-                        className={styles.image_top}
-                        src="/images/icon-rock.svg"
-                        height="45px"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <PlayItem name="lizard" />
+                <PlayItem name="rock" />
               </div>
             </div>
           </div>
@@ -122,3 +72,21 @@ export default function Home() {
     </div>
   );
 }
+
+const PlayItem = (props) => {
+  return (
+    <Link href={"/play/" + props.name}>
+      <div className="col">
+        <div className={styles[props.name]}>
+          <div className={styles.image_inner}>
+            <img
+              className={styles.image_top}
+              src={`/images/icon-${props.name}.svg`}
+              height="45px"
+            />
+          </div>
+        </div>
+      </div>
+    </Link>
+  );
+};

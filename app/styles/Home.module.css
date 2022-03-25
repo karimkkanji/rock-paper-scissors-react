@@ -17,55 +17,60 @@
 }
 
 .scissors {
+  box-shadow: inset 0px -4px #c76e1d;
   background: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
   width: 100px;
   height: 100px;
   border-radius: 100%;
   position: sticky;
-  padding: 8px;
+  padding: 9px;
   margin-left: 115px;
 }
 
-.sprock {
+.spock {
+  box-shadow: inset 0px -4px #5c8caa;
   background: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
   width: 100px;
   height: 100px;
   border-radius: 100%;
   position: sticky;
-  padding: 8px;
+  padding: 9px;
   margin-left: -30px;
 }
 
 .lizard {
+  box-shadow: inset 0px -4px #5b25a7;
   position: sticky;
   background: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  padding: 8px;
+  padding: 9px;
   margin-top: 50px;
   margin-left: 30px;
 }
 
 .rock {
+  box-shadow: inset 0px -4px #861e36;
   background: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
   width: 100px;
   height: 100px;
   border-radius: 100%;
   position: sticky;
-  padding: 8px;
+  padding: 9px;
   margin-top: 50px;
   margin-left: 20px;
 }
 
 .paper {
+  box-shadow: inset 0px -4px #3f31b9;
   background: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
   width: 100px;
   height: 100px;
   border-radius: 100%;
   position: sticky;
   margin-left: 65px;
-  padding: 8px;
+  padding: 9px;
 }
 
 .image_top {
@@ -73,10 +78,11 @@
 }
 
 .image_inner {
+  box-shadow: inset 0px 4px 1px rgb(188, 186, 208);
   background-color: white;
   border-radius: 100%;
-  height: 85px;
-  width: 85px;
+  height: 80px;
+  width: 80px;
   margin-right: auto !important;
   margin-left: auto !important;
   text-align: center !important;
@@ -84,7 +90,7 @@
 
 .score_board {
   background: #f9f9f9;
-  border-radius: 10px;
+  border-radius: 9px;
   border-style: solid;
   height: 93%;
   width: 173px;
@@ -104,4 +110,105 @@
   text-align: center;
   font-size: 61px;
   margin-top: -36px;
+}
+
+.circle_outer {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position: sticky;
+  padding: 30px;
+  margin-top: 80px;
+}
+
+.scissors_large {
+  box-shadow: inset 1px -10px #c76c1d;
+  background: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position: sticky;
+  padding: 30px;
+  margin-top: 80px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center !important;
+}
+.lizard_large {
+  box-shadow: inset 1px -10px #5b25a7;
+  background: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position: sticky;
+  padding: 30px;
+  margin-top: 80px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center !important;
+}
+.spock_large {
+  box-shadow: inset 1px -10px #5c8caa;
+  background: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position: sticky;
+  padding: 30px;
+  margin-top: 80px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center !important;
+}
+.rock_large {
+  box-shadow: inset 1px -10px #861e36;
+  background: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position: sticky;
+  padding: 30px;
+  margin-top: 80px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center !important;
+}
+.paper_large {
+  box-shadow: inset 1px -10px #3f31b9;
+  background: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position: sticky;
+  padding: 30px;
+  margin-top: 80px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center !important;
+}
+.image_top_large {
+  margin-top: 70px;
+}
+.image_inner_large {
+  background-color: white;
+  border-radius: 100%;
+  height: 240px;
+  width: 240px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center !important;
+}
+
+.image_inner_large_wireframe {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center !important;
+  background-color: #172240;
+  border-radius: 100%;
+  height: 240px;
+  width: 240px;
+}
+.title_custom {
+  color: white;
+  text-align: center !important;
 }
