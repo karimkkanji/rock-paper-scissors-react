@@ -1,116 +1,107 @@
-.container {
-  padding: 0 2rem;
+.container_top {
+  margin-top: 40px;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
+.game_container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.center_holder {
+  position: absolute;
+  z-index: 10000;
+  contain: initial;
+  height: 350px;
+  width: 350px;
+  background: url("../../images/bg-pentagon.svg") center / auto no-repeat;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.scissors {
+  background: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: sticky;
+  padding: 8px;
+  margin-left: 115px;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.sprock {
+  background: linear-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: sticky;
+  padding: 8px;
+  margin-left: -30px;
 }
 
-.title,
-.description {
-  text-align: center;
+.lizard {
+  position: sticky;
+  background: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  padding: 8px;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.rock {
+  background: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: sticky;
+  padding: 8px;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.paper {
+  background: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: sticky;
+  margin-left: 65px;
+  padding: 8px;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+.image_top {
+  margin-top: 20px;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
+.image_inner {
+  background-color: white;
+  border-radius: 100%;
+  height: 85px;
+  width: 85px;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center !important;
+}
+
+.score_board {
+  background: #f9f9f9;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  border-style: solid;
+  height: 93%;
+  width: 173px;
+  margin-top: 5px;
+  float: right;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.score_board_header {
+  text-align: center;
+  color: var(--bs-blue);
+  font-weight: 700;
+  margin-top: 20px;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.score_board_score {
+  font-weight: 700;
+  text-align: center;
+  font-size: 61px;
+  margin-top: -36px;
 }
