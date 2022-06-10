@@ -327,7 +327,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {showRules ? <div class="modal-backdrop fade show"></div> : <></>}
+        {showRules ? <div className="modal-backdrop fade show"></div> : <></>}
       </main>
     </div>
   );
