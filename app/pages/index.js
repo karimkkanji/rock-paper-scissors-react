@@ -180,7 +180,7 @@ export default function Home() {
                     <div className="col-12 mx-auto text-center d-block d-lg-none">
                       <h1
                         style={{
-                          marginTop: 50,
+                          marginTop: '2vh',
                           fontSize: 60,
                           color: "#fff",
                           fontWeight: 700,
