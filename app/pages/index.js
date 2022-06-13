@@ -93,7 +93,7 @@ export default function Home() {
                 }}
               >
                 <img
-                  src="./images/logo-bonus.svg"
+                  src="/images/logo-bonus.svg"
                   className={styles.imageLogo}
                 />
               </div>
@@ -300,13 +300,13 @@ export default function Home() {
                   </h3>
 
                   <div className="d-none d-sm-block">
-                    <img src="./images/image-rules-bonus.svg" />
+                    <img src="/images/image-rules-bonus.svg" />
                   </div>
                   <div
                     className="d-block d-sm-none"
                     style={{ marginTop: "20vh" }}
                   >
-                    <img src="./images/image-rules-bonus.svg" />
+                    <img src="/images/image-rules-bonus.svg" />
                   </div>
                   <div
                     className="text-center d-block d-sm-none"
@@ -340,7 +340,7 @@ const PlayItem = (props) => {
         <div className={styles.image_inner}>
           <img
             className={styles.image_top}
-            src={`./images/icon-${props.name}.svg`}
+            src={`/images/icon-${props.name}.svg`}
             height="45px"
           />
         </div>

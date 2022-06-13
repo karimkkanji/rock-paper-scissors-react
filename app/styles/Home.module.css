@@ -109,7 +109,7 @@
     contain: initial;
     height: 350px;
     width: 350px;
-    background: url("../../images/bg-pentagon.svg") center / auto no-repeat;
+    background: url("/images/bg-pentagon.svg") center / auto no-repeat;
   }
   .scissors_large {
     box-shadow: inset 1px -10px #c76c1d;
@@ -184,7 +184,7 @@
     margin-right: auto !important;
     margin-left: auto !important;
     text-align: center !important;
-    background-image: url("../../images/icon-scissors.svg");
+    background-image: url("/images/icon-scissors.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100px;
@@ -197,7 +197,7 @@
     margin-right: auto !important;
     margin-left: auto !important;
     text-align: center !important;
-    background-image: url("../../images/icon-scissors.svg");
+    background-image: url("/images/icon-scissors.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100px;
@@ -210,7 +210,7 @@
     margin-right: auto !important;
     margin-left: auto !important;
     text-align: center !important;
-    background-image: url("../../images/icon-scissors.svg");
+    background-image: url("/images/icon-scissors.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100px;
@@ -223,7 +223,7 @@
     margin-right: auto !important;
     margin-left: auto !important;
     text-align: center !important;
-    background-image: url("../../images/icon-scissors.svg");
+    background-image: url("/images/icon-scissors.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100px;
@@ -236,7 +236,7 @@
     margin-right: auto !important;
     margin-left: auto !important;
     text-align: center !important;
-    background-image: url("../../images/icon-scissors.svg");
+    background-image: url("/images/icon-scissors.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100px;
@@ -297,7 +297,7 @@
     contain: initial;
     height: 310px;
     width: 310px;
-    background: url("../../images/bg-pentagon.svg") center / auto no-repeat;
+    background: url("/images/bg-pentagon.svg") center / auto no-repeat;
   }
   .scissors_large {
     box-shadow: inset 1px -10px #c76c1d;
@@ -375,7 +375,7 @@
     margin-right: auto !important;
     margin-left: auto !important;
     text-align: center !important;
-    background-image: url("../../images/icon-scissors.svg");
+    background-image: url("/images/icon-scissors.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80px;
@@ -388,7 +388,7 @@
     margin-right: auto !important;
     margin-left: auto !important;
     text-align: center !important;
-    background-image: url("../../images/icon-scissors.svg");
+    background-image: url("/images/icon-scissors.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80px;
@@ -401,7 +401,7 @@
     margin-right: auto !important;
     margin-left: auto !important;
     text-align: center !important;
-    background-image: url("../../images/icon-lizard.svg");
+    background-image: url("/images/icon-lizard.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80px;
@@ -414,7 +414,7 @@
     margin-right: auto !important;
     margin-left: auto !important;
     text-align: center !important;
-    background-image: url("../../images/icon-paper.svg");
+    background-image: url("/images/icon-paper.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80px;
@@ -427,7 +427,7 @@
     margin-right: auto !important;
     margin-left: auto !important;
     text-align: center !important;
-    background-image: url("../../images/icon-rock.svg");
+    background-image: url("/images/icon-rock.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80px;
